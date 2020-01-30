@@ -1,0 +1,254 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* Main Styling */
+*{
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: #a5a9ad;
+}
+.header{
+    background: url('../media/images/banner.jpg') no-repeat  center center/cover ;
+    /* background-size: cover; */
+    /* height: 700px; */
+    background-attachment: fixed;
+    
+}
+.logo{
+   float: left;
+  
+
+}
+.logo h1{
+    font-family: 'Raleway', sans-serif;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 600;
+}
+.nav-menu{
+    float: right;
+}
+.nav-menu a{
+    color: #fff;
+    font-size: 18px;
+    margin-left: 32px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+}
+.clearfix:before, .clearfix:after {
+    content: "";
+    display: table;
+  }
+  .clearfix:after {
+    clear: both;
+  }
+.padding{
+    padding: 20px 0;
+}
+.container{
+    max-width: 1300px;
+    margin: 0 auto;
+}
+.container1{
+    max-width: 1000px;
+    margin: 0 auto;
+ 
+}
+.center{
+    text-align: center;
+}
+.heading{
+    font-size: 36px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    color: #fff;
+    padding-top: 20px;
+    letter-spacing: 1.5px;
+
+}
+.diamond .far{
+    border-radius: 100%;
+	border: solid 2px #fff;
+    color: #fff;
+    display: inline-block;
+    font-size: 3em;
+	height: 2.25em;
+	line-height: 1.25em;
+	margin-bottom: 0.5em;
+	padding: 0.5em;
+    width: 2.25em;
+   
+}
+.diamond{
+    text-align: center;
+    margin-top: 60px;
+}
+.para{
+    color: #fff;
+    font-size: 18px;
+    letter-spacing: 1.5px;
+    font-weight: 400;
+}
+.btn{
+    padding:20px 44px;
+    margin-bottom: 20px;
+    background: #51BAA4;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 40px;
+    letter-spacing: 1.5px;
+    
+}
+.hero{
+    padding: 90px 60px 60px 60px;
+    background: #eeeeee;
+}
+.col-1-2{
+    width: 50%;
+    float: left;
+    padding-left: 30px;
+}
+.responsive-img{
+    width: 100%;
+}
+.mini-heading {
+    font-size: 22px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    color: #555;
+    padding-top: 30px;
+   line-height: 1.5;
+}
+.text-color{
+    color: #777;
+    font-family: 'Raleway', sans-serif;
+    padding-top: 30px;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+.btn-1{
+    background: transparent;
+    color: #51BAA4;
+    border: 2px solid #51BAA4;
+    padding: 10px 40px;
+    letter-spacing: 1.5px;
+}
+.bg-color{
+    background: #fff;
+}
+.margin{
+    margin-top: 80px ;
+}
+.secondary{
+    margin: 30px 0;
+}
+.color{
+    color: #25383B;
+}
+.col-1-4{
+    width: 25%;
+    float: left;
+}
+.image{
+    width: 100%;
+}
+.teritary{
+    background: url('../media/images/pic11.jpg') no-repeat  center center/cover ;
+    padding: 50px 0;
+
+}
+.teritary p{
+    color: #fff;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+    line-height: 1.5;
+    font-size: 18px;
+}
+.btn-2{
+    background: transparent;
+}
+.footer{
+    background: #1E2832;
+    padding: 50px 0;
+}
+.form-styling{
+    background:#1E2832 ;
+    color: #eeeeee;
+    padding: 15px 50px 15px 10px;
+    margin-left: 20px;
+}
+textarea{
+    margin: 20px 0;
+    width: 82%;
+}
+.footer .center .btn-2{
+    margin-left: 20px;
+}
+.center .fab{
+    margin-left: 24px;
+    color: #eeeeee;
+    padding: 30px 0 0 20px;
+    font-size: 24px;
+}
+.text{
+    width: 40%;
+}
+.email{
+    width: 40%;
+}
+.copy-right{
+    padding: 20px ;
+    color: #eee;
+    font-size: 14px;
+}
